@@ -1,17 +1,56 @@
 <!doctype html>
-<html lang="<!-- figma:lang -->">
+<html lang="en">
   <head>
     <!-- figma:head-start -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aqua Archive — iOS Legacy Repo</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; color: #21364a; background: #e6edf5; font-family: Helvetica, Arial, sans-serif; }
+      .legacy-top { min-height: 66px; padding: 13px 18px; color: #fff; border-bottom: 1px solid #003c7a; background: #0c63ad; background: -webkit-linear-gradient(#2d94df, #07559d); background: linear-gradient(#2d94df, #07559d); box-shadow: 0 1px 3px rgba(0, 0, 0, .35); }
+      .legacy-mark { display: inline-block; width: 36px; height: 36px; margin-right: 9px; vertical-align: middle; text-align: center; line-height: 34px; font-weight: bold; border: 1px solid #74bdf1; border-radius: 8px; background: #1580ce; box-shadow: inset 0 1px rgba(255,255,255,.4); }
+      .legacy-title { display: inline-block; vertical-align: middle; font-weight: bold; font-size: 19px; text-shadow: 0 -1px rgba(0,0,0,.3); }
+      .legacy-title small { display: block; margin-top: 2px; color: #d9efff; font-size: 11px; font-weight: normal; }
+      .legacy-wrap { max-width: 720px; margin: 0 auto; padding: 18px 12px 40px; }
+      .legacy-card { margin: 12px 0; overflow: hidden; border: 1px solid #b5c4d2; border-radius: 10px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.16); }
+      .legacy-card h1 { margin: 0; padding: 18px 17px 10px; color: #155d9f; font-size: 27px; line-height: 1.1; }
+      .legacy-card p { margin: 0; padding: 0 17px 16px; color: #53687b; font-size: 15px; line-height: 1.42; }
+      .legacy-label { display: block; padding: 11px 17px 8px; color: #657b90; font-size: 11px; font-weight: bold; letter-spacing: .08em; }
+      .legacy-row { display: block; padding: 14px 17px; color: #155d9f; text-decoration: none; border-top: 1px solid #d9e1e8; font-size: 17px; font-weight: bold; }
+      .legacy-row small { display: block; margin-top: 3px; color: #617488; font-size: 12px; font-weight: normal; }
+      .legacy-empty { padding: 17px; color: #53687b; line-height: 1.45; text-align: center; }
+      .legacy-note { color: #657b90; font-size: 12px; line-height: 1.45; text-align: center; }
+      .legacy-modern { display: none; }
+    </style>
     <!-- figma:head-end -->
     <script type="module" crossorigin src="/aqua-archive-pages/assets/index-BRVcTv75.js"></script>
     <link rel="stylesheet" crossorigin href="/aqua-archive-pages/assets/index-D2L2kpEh.css">
   </head>
   <body>
     <!-- figma:body-start -->
-    <div id="root"></div>
+    <div id="root">
+      <div class="legacy-top">
+        <span class="legacy-mark">A</span><span class="legacy-title">Aqua Archive<small>iOS legacy repository</small></span>
+      </div>
+      <main class="legacy-wrap">
+        <section class="legacy-card">
+          <span class="legacy-label">AQUA ARCHIVE / VERIFIED-ONLY</span>
+          <h1>Real packages only.</h1>
+          <p>This archive lists only packages you created or are explicitly authorized to distribute. There are no placeholder, commercial, decrypted, or unverified IPAs here.</p>
+        </section>
+        <section class="legacy-card">
+          <span class="legacy-label">REPOSITORY FEED</span>
+          <a class="legacy-row" href="./Release">Release<small>Add this repository source in Cydia or Zebra.</small></a>
+          <a class="legacy-row" href="./Packages">Packages<small>Verified package metadata. This file is empty until you publish a real authorized package.</small></a>
+        </section>
+        <section class="legacy-card">
+          <span class="legacy-label">VERIFIED PACKAGES</span>
+          <div class="legacy-empty">No verified packages published yet. Add your own authorized package metadata through the private Aqua Archive source repository.</div>
+        </section>
+        <p class="legacy-note">This lightweight page is retained for older Safari versions, including iOS 9.3.5.</p>
+      </main>
+    </div>
     <!-- figma:body-end -->
   </body>
 </html>

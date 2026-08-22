@@ -1,0 +1,10 @@
+Package: com.moonlight-stream.Moonlight
+Name: Moonlight Game Streaming
+Version: 0.9.2
+Architecture: iphoneos-arm
+Description: Official Moonlight iOS v0.9.2 pre-release for streaming games and desktop applications from a compatible PC host. This package links to the upstream project’s original release asset.
+Section: Games
+Author: Moonlight Game Streaming Project
+Homepage: https://github.com/moonlight-stream/moonlight-ios/tree/v0.9.2
+Filename: https://github.com/moonlight-stream/moonlight-ios/releases/download/v0.9.2/Moonlight_0_9_2.ipa
+Size: 2051477

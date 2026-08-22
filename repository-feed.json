@@ -1,3 +1,27 @@
 {
-  "packages": []
+  "packages": [
+    {
+      "bundleId": "com.moonlight-stream.Moonlight",
+      "name": "Moonlight Game Streaming",
+      "developer": "Moonlight Game Streaming Project",
+      "version": "0.9.2",
+      "minIOS": "8.0",
+      "category": "Games",
+      "description": "Official Moonlight iOS v0.9.2 pre-release for streaming games and desktop applications from a compatible PC host. This package links to the upstream project’s original release asset.",
+      "license": "GNU GPL v3.0",
+      "licenseId": "GPL-3.0-only",
+      "licenseNotice": "Moonlight iOS/tvOS is GPL-3.0 licensed. Any redistributed copy must retain the licence and notices and provide the complete corresponding source for the covered work.",
+      "permissionBasis": "open-source-license",
+      "sourceUrl": "https://github.com/moonlight-stream/moonlight-ios/tree/v0.9.2",
+      "authorizationNote": "Official moonlight-stream/moonlight-ios v0.9.2 prerelease asset. Review found GPL-3.0 source, iOS 8.0 minimum, and armv7 plus arm64 executable slices; the download remains hosted by the upstream project.",
+      "ipaFilename": "Moonlight_0_9_2.ipa",
+      "ipaSize": 2051477,
+      "ipaUrl": "https://github.com/moonlight-stream/moonlight-ios/releases/download/v0.9.2/Moonlight_0_9_2.ipa",
+      "icon": "ML",
+      "color": [
+        "#4d90fe",
+        "#26384f"
+      ]
+    }
+  ]
 }
